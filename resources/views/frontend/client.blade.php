@@ -9,74 +9,74 @@
            <div id="clients-slider" class="owl-carousel">
                <div class="item">
                    <a href="#">
-                   <img alt="Our Client" src="img/OurClients/amazon-grey.png">
-                   <img alt="Our Client" src="img/OurClients/amazon.png" class="colored">
+                   <img alt="Our Client" src="assets/frontend/img/OurClients/amazon-grey.png">
+                   <img alt="Our Client" src="assets/frontend/img/OurClients/amazon.png" class="colored">
                    </a>
                </div>
                <div class="item">
                    <a href="#">
-                   <img alt="Our Client" src="img/OurClients/cisco_grey.png">
-                   <img alt="Our Client" src="img/OurClients/cisco.png" class="colored">
+                   <img alt="Our Client" src="assets/frontend/img/OurClients/cisco_grey.png">
+                   <img alt="Our Client" src="assets/frontend/img/OurClients/cisco.png" class="colored">
                    </a>
                </div>
                <div class="item">
                    <a href="#">
-                   <img alt="Our Client" src="img/OurClients/cityairline-grey.png">
-                   <img alt="Our Client" src="img/OurClients/cityairline.png" class="colored">
+                   <img alt="Our Client" src="assets/frontend/img/OurClients/cityairline-grey.png">
+                   <img alt="Our Client" src="assets/frontend/img/OurClients/cityairline.png" class="colored">
                    </a>
                </div>
                <div class="item">
                    <a href="#">
-                   <img alt="Our Client" src="img/OurClients/dell-grey.png">
-                   <img alt="Our Client" src="img/OurClients/dell.png" class="colored">
+                   <img alt="Our Client" src="assets/frontend/img/OurClients/dell-grey.png">
+                   <img alt="Our Client" src="assets/frontend/img/OurClients/dell.png" class="colored">
                    </a>
                </div>
                <div class="item">
                    <a href="#">
-                   <img alt="Our Client" src="img/OurClients/ebay-grey.png">
-                   <img alt="Our Client" src="img/OurClients/ebay.png" class="colored">
+                   <img alt="Our Client" src="assets/frontend/img/OurClients/ebay-grey.png">
+                   <img alt="Our Client" src="assets/frontend/img/OurClients/ebay.png" class="colored">
                    </a>
                </div> 
                <div class="item">
                    <a href="#">
-                   <img alt="Our Client" src="img/OurClients/google-grey.png">
-                   <img alt="Our Client" src="img/OurClients/google.png" class="colored">
+                   <img alt="Our Client" src="assets/frontend/img/OurClients/google-grey.png">
+                   <img alt="Our Client" src="assets/frontend/img/OurClients/google.png" class="colored">
                    </a>
                </div>
                <div class="item">
                    <a href="#">
-                   <img alt="Our Client" src="img/OurClients/hp_grey.png">
-                   <img alt="Our Client" src="img/OurClients/hp.png" class="colored">
+                   <img alt="Our Client" src="assets/frontend/img/OurClients/hp_grey.png">
+                   <img alt="Our Client" src="assets/frontend/img/OurClients/hp.png" class="colored">
                    </a>
                </div>
                <div class="item">
                    <a href="#">
-                   <img alt="Our Client" src="img/OurClients/igneus_grey.png">
-                   <img alt="Our Client" src="img/OurClients/igneus.png" class="colored">
+                   <img alt="Our Client" src="assets/frontend/img/OurClients/igneus_grey.png">
+                   <img alt="Our Client" src="assets/frontend/img/OurClients/igneus.png" class="colored">
                    </a>
                </div>
                <div class="item">
                    <a href="#">
-                   <img alt="Our Client" src="img/OurClients/natural_grey.png">
-                   <img alt="Our Client" src="img/OurClients/natural.png" class="colored">
+                   <img alt="Our Client" src="assets/frontend/img/OurClients/natural_grey.png">
+                   <img alt="Our Client" src="assets/frontend/img/OurClients/natural.png" class="colored">
                    </a>
                </div>
                <div class="item">
                    <a href="#">
-                   <img alt="Our Client" src="img/OurClients/shell_grey.png">
-                   <img alt="Our Client" src="img/OurClients/shell.png" class="colored">
+                   <img alt="Our Client" src="assets/frontend/img/OurClients/shell_grey.png">
+                   <img alt="Our Client" src="assets/frontend/img/OurClients/shell.png" class="colored">
                    </a>
                </div>
                <div class="item">
                    <a href="#">
-                   <img alt="Our Client" src="img/OurClients/vadafone_grey.png">
-                   <img alt="Our Client" src="img/OurClients/vadafone.png" class="colored">
+                   <img alt="Our Client" src="assets/frontend/img/OurClients/vadafone_grey.png">
+                   <img alt="Our Client" src="assets/frontend/img/OurClients/vadafone.png" class="colored">
                    </a>
                </div>
                <div class="item">
                    <a href="#">
-                   <img alt="Our Client" src="img/OurClients/walmart_grey.png">
-                   <img alt="Our Client" src="img/OurClients/walmart.png" class="colored">
+                   <img alt="Our Client" src="assets/frontend/img/OurClients/walmart_grey.png">
+                   <img alt="Our Client" src="assets/frontend/img/OurClients/walmart.png" class="colored">
                    </a>
                </div>
            </div>
