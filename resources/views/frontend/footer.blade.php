@@ -52,7 +52,10 @@
             <div class="col-lg-6">
                 <div class="copyright">
                     <p>
-                        <span>&copy; Loud 2018 All right reserved.  <a href="https://webthemez.com/free-bootstrap-templates/" target="_blank">Free Bootstrap Template</a> by WebThemez.com
+                        <div class="copyright-content">
+                            <!-- Copyright Text -->
+                            <p>© Copyright <a href="#">Sain21</a>. Design &amp; Development By <a target="_blank" href="#">Samudra Intermedia</a></p>
+                        </div>
                     </p>
                 </div>
             </div>
