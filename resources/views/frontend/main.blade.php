@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Loud Bootstrap Corporate Web Template</title>
+<title>Rekrutmen DesaSB</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="" />
 <meta name="author" content="http://webthemez.com" />
@@ -13,7 +13,9 @@
 <link href="assets/frontend/css/flexslider.css" rel="stylesheet" />
 <link href="assets/frontend/js/owl-carousel/owl.carousel.css" rel="stylesheet"> 
 <link href="assets/frontend/css/style.css" rel="stylesheet" /> 
- 
+     <!-- Favicon -->
+	 <link rel="icon" href="{{'assets/frontend/img/recrutment.ico'}}">
+
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
