@@ -10,8 +10,8 @@
       <li>
         <img src="assets/frontend/img/slides/2.jpg" alt="flexslider" /> 
         <div class="flex-caption">
-            <h3>FINANCIAL</h3> 
-            <p>Lorem ipsum dolor sit elitincidunt</p>  
+            <h3>MEMPEKERJAKAN</h3> 
+            <p>Pengembangan kepemimpinan untuk pembangunan karakter yang bertanggung jawab dan kreatif</p>  
         </div> 
       </li>
     </ul>
