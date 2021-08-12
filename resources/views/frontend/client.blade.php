@@ -1,6 +1,6 @@
 <div class="container">
     <div class="clients-slider">
-           <h3 class="header-title">Our Clients</h3>
+           <h3 class="header-title">Foto Kerjasama</h3>
            <div class="clients-control pull-right">
                <a class="prev btn btn-gray btn-xs"><i class="fa fa-angle-left fa-2x"></i></a>
                <a class="next btn btn-gray btn-xs"><i class="fa fa-angle-right fa-2x"></i></a>
