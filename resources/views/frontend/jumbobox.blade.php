@@ -1,7 +1,15 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-12">
-            <div><h1>Services</h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus, vero mollitia velit ad consectetur. Alias, laborum excepturi nihil autem nemo numquam, ipsa architecto non, magni consequuntur quam.</div>
+            <div><h1>Kerja Sama Terhadap Perusahaan / Outsourching </h1>Team Rekrutmen merupakan inisiatif kepala desa di desa
+                sumurbandung dan pada akhirnya disahkan, Keberadaan Team Rekrutmen diharapkan akan lebih 
+                meningkatkan peran kelembagaan dan kerjasama 
+                di lingkungan Desa Sumurbandung, terutama dalam memfasilitasi 
+                tes bagi calon pekerja desa sumurbandung. Terdapat beberapa agenda yang 
+                akan dikukuhkan oleh Team Rekrutmen, diantaranya penguatan 
+                dan pengukuran peraturan; transfaransi;
+                dan kelembagaan Team.
+            </div>
             
         </div>
     </div>
