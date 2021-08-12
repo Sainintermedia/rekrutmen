@@ -7,6 +7,9 @@
 <meta name="description" content="" />
 <meta name="author" content="http://webthemez.com" />
 <!-- css -->
+<link rel="apple-touch-icon" href="{{'assets/frontend/img/recrutment.ico'}}">
+<link rel="shortcut icon" href="{{'assets/frontend/img/recrutment.ico'}}">
+
 <link href="assets/frontend/css/bootstrap.min.css" rel="stylesheet" />
 <link rel="assets/frontend/stylesheet" href="simple-line-icons/css/simple-line-icons.css">
 <link href="assets/frontend/css/fancybox/jquery.fancybox.css" rel="stylesheet"> 
