@@ -34,15 +34,12 @@
         <!-- Left Panel -->
 
     <aside id="left-panel" class="left-panel">
-      @include('backend.nav')
+    @include('backend.layout.nav')
     </aside><!-- /#left-panel -->
 
     <!-- Left Panel -->
-
-    
     <!-- Right Panel -->
-
-    
+    @include('backend.layout.side')
     <!-- Right Panel -->
 
     <script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
