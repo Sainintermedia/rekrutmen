@@ -35,12 +35,12 @@
 		<div class="col-md-3 text-center"> 
 		<div class="box">
 		<span class="icons c4"><i class="icon-home icons"></i></span> <div class="box-area">
-		<h3>YANG UDAH MASUK</h3><h5> {{ $udah->count() }} Orang</h5> <p> 0 Laki Laki  0 Perempuan</p> <p><a href="#">Read More</a></p></div>
+		<h3>YANG UDAH MASUK</h3><h5> {{ $udah->count() }} Orang</h5> <p> {{ $ludah->count() }}  Laki Laki  {{ $pudah->count() }}  Perempuan</p> <p><a href="#">Read More</a></p></div>
 		</div></div>
 		<div class="col-md-3 text-center"> 
 		<div class="box">
 		<span class="icons c4"><i class="icon-home icons"></i></span> <div class="box-area">
-		<h3>YANG BELUM MASUK</h3><h5> {{ $belum->count() }} Orang</h5> <p>0 Laki Laki  0 Perempuan</p> <p><a href="#">Read More</a></p></div>
+		<h3>YANG BELUM MASUK</h3><h5> {{ $belum->count() }} Orang</h5> <p>{{ $lbelum->count() }} Laki Laki  {{ $pbelum->count() }} Perempuan</p> <p><a href="#">Read More</a></p></div>
 		</div></div>
 		</div></div></div>
 		</div> 

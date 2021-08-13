@@ -65,14 +65,24 @@ class Frontcontroller extends Controller
         ->where('kampung','BENDUNG')->get();
         ////////////////////////////////////////////////////////////////////////
         //belum masuk dan udah masuk///////////////////////////////////////////////////////////////////////////////
-        $belum = Frontend::where('keterangan','')->get();
+        $belum = Frontend::where('keterangan','belum')->
+        get();
+        $pbelum = Frontend::where('keterangan','belum')->
+        where('jeniskelamin','PEREMPUAN')->get();
+        $lbelum = Frontend::where('keterangan','belum')->
+        where('jeniskelamin','LAKI LAKI')->get();
+                //UDAH masuk dan udah masuk//////////////////////////////
         $udah = Frontend::where('keterangan','udah')->get();
+        $pudah = Frontend::where('keterangan','udah')
+        -> where('jeniskelamin','PEREMPUAN')->get();
+        $ludah = Frontend::where('keterangan','udah')->
+        where('jeniskelamin','LAKI LAKI')->get();
         // $lbendung = Frontend::where('jeniskelamin','LAKI LAKI')
         // ->where('kampung','BENDUNG')->get();
         ////////////////////////////////////////////////////////////////////////
 
         // dd($data);
-        return view ('frontend.main',compact('belum','udah','bendung','pbendung','lbendung','kramat','pkramat','lkramat','kunir','pkunir','lkunir','sumurbandung','psumurbandung','lsumurbandung','saradan','sempur','psempur','lsempur','saradan','psaradan','lsaradan'));
+        return view ('frontend.main',compact('udah','pudah','ludah','belum','pbelum','lbelum','bendung','pbendung','lbendung','kramat','pkramat','lkramat','kunir','pkunir','lkunir','sumurbandung','psumurbandung','lsumurbandung','saradan','sempur','psempur','lsempur','saradan','psaradan','lsaradan'));
     }
 
     /**
