@@ -33,4 +33,9 @@ use Illuminate\Support\Facades\Route;
 ///////////////// DATA FRONTEND ///////////////////////
 Route::get('/',[Frontcontroller::class, 'index']);
 Route::get('/bendung',[Frontcontroller::class, 'databendung']);
+Route::get('/kramat',[Frontcontroller::class, 'datakramat']);
+Route::get('/sumurbandung',[Frontcontroller::class, 'datasumurbandung']);
+Route::get('/kunir',[Frontcontroller::class, 'datakunir']);
+Route::get('/saradan',[Frontcontroller::class, 'datasaradan']);
+Route::get('/sempur',[Frontcontroller::class, 'datasempur']);
 
