@@ -1,7 +1,7 @@
 @extends('frontend.content.index')
 @section('content')
     <center>
-        <h1>Menampilkan data dengan datatables | Malas Ngoding</h1>
+        <h2> Data Pelamar</h2>
     </center>
     <br/>
     <br/>
@@ -9,8 +9,8 @@
                 <table class="table table-striped table-bordered data">
                     <thead>
                         <tr>			
+                            <th>NIK</th>
                             <th>Nama</th>
-                            <th>Alamat</th>
                             <th>Pekerjaan</th>
                             <th>Usia</th>
                             <th>Status</th>
@@ -46,7 +46,7 @@
                             <td>Aktif</td>
                         </tr>
                         <tr>				
-                            <td>Andi</td>
+                            <td>aman</td>
                             <td>Jakarta</td>
                             <td>Web Designer</td>
                             <td>21</td>
