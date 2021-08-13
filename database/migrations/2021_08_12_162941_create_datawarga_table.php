@@ -18,8 +18,8 @@ class CreateDatawargaTable extends Migration
             $table->string('nik',16);
             $table->string('nama',50);
             $table->string('tempat_lahir');
-            $table->date('tanggal_lahir');
-            $table->string('jk',30);
+            $table->date('tgl_lahir');
+            $table->string('jeniskelamin',30);
             $table->string('kampung');
             $table->string('rt');
             $table->string('rw');
