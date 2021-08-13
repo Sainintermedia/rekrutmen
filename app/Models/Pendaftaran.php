@@ -12,7 +12,7 @@ class Pendaftaran extends Model
         'nik',
         'nama',
         'tempat_lahir',
-        'tanggal_lahir',
+        'tgl_lahir',
         'jk',
         'kampung',
         'rt',

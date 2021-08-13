@@ -43,7 +43,7 @@ class PendaftaranController extends Controller
             'nama' => 'required',
             'tempat_lahir' => 'required',
             'tanggal_lahir' => 'required',
-            'jk' => 'required',
+            'jeniskelamin' => 'required',
             'kampung' => 'required',
             'rt' => 'required',
             'rw' => 'required',
@@ -55,7 +55,7 @@ class PendaftaranController extends Controller
             ]);
 
         Pendaftaran::create($request->all());
-        return redirect('/pendaftaran')->with('status','Data Pendaftaran Berhasil Di Simpan');
+        return redirect('/')->with('status','Data Pendaftaran Berhasil Di Simpan');
     }
 
     /**
