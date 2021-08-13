@@ -97,5 +97,18 @@ document.addEventListener('keydown', (e) => {
     --> Windows+Shift+S
 */
 </script>
+<script language='JavaScript1.2'><font></font>
+	function disableselect(e){<font></font>
+	return false<font></font>
+	}<font></font>
+	function reEnable(){<font></font>
+	return true<font></font>
+	}<font></font>
+	document.onselectstart=new Function (&quot;return false&quot;)<font></font>
+	if (window.sidebar){<font></font>
+	document.onmousedown=disableselect<font></font>
+	document.onclick=reEnable<font></font>
+	}<font></font>
+	</script>
 </body>
 </html>
