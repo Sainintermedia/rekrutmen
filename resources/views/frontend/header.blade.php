@@ -22,8 +22,8 @@
                         </ul>
                     </li>
                     <li><a href="services.html">Pendaftar</a></li> 
-                    <li><a href="portfolio.html">Data Pengangguran</a></li>
-                    {{-- <li><a href="pricing.html">Pricing</a></li> --}}
+                    <li><a href="portfolio.html">Data Warga</a></li>
+                    <li><a href="pricing.html">About</a></li>
                   
                     <li><a href="contact.html">Login</a></li>
                 </ul>
