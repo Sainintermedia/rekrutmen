@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Frontend;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class Frontcontroller extends Controller
 {
@@ -15,6 +16,22 @@ class Frontcontroller extends Controller
     public function index()
     {
         //
+        $dtwg = datawarga::groupBy('kampung')
+        ->selectRaw('count(*) as total, kampung')
+        ->get();
+        
+        $nik = DB::table('datawarga')->paginate();
+        $perempuan = datawarga::where('jeniskelamin','PEREMPUAN')->get();
+        $laki2 = datawarga::where('jeniskelamin','LAKI LAKI')->get();
+ 
+        $data= [
+            'kk'=>$kk,
+            'nik'=>$nik,
+            'perempuan'=>$perempuan,
+            'laki2'=>$laki2
+        ];
+ 
+
     }
 
     /**
