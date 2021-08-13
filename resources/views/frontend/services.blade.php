@@ -20,7 +20,7 @@
 		<div class="col-md-3 text-center"> 
 		<div class="box">
 		<span class="icons c4"><i class="icon-home icons"></i></span> <div class="box-area">
-		<h3>BENDUNG</h3><h5> {{ $bendung->count() }} Orang</h5> <p>{{ $lbendung->count() }} Laki Laki  {{ $pbendung->count() }} Perempuan</p> <p><a href="#">Read More</a></p></div>
+		<h3>BENDUNG</h3><h5> {{ $bendung->count() }} Orang</h5> <p>{{ $lbendung->count() }} Laki Laki  {{ $pbendung->count() }} Perempuan</p> <p><a href="/bendung">Read More</a></p></div>
 		</div></div>
 		<div class="col-md-3 text-center"> 
 		<div class="box">
@@ -40,7 +40,7 @@
 		<div class="col-md-3 text-center"> 
 		<div class="box">
 		<span class="icons c4"><i class="icon-home icons"></i></span> <div class="box-area">
-		<h3>YANG BELUM MASUK</h3><h5> {{ $belum->count() }} Orang</h5> <p>{{ $lbelum->count() }} Laki Laki  {{ $pbelum->count() }} Perempuan</p> <p><a href="#">Read More</a></p></div>
+		<h3>YANG BELUM MASUK</h3><h5> {{ $belums->count() }} Orang</h5> <p>{{ $lbelums->count() }} Laki Laki  {{ $pbelums->count() }} Perempuan</p> <p><a href="#">Read More</a></p></div>
 		</div></div>
 		</div></div></div>
 		</div> 

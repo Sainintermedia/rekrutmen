@@ -11,7 +11,7 @@
             </div>
             <div class="navbar-collapse collapse ">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home</a></li> 
+                    <li class="active"><a href="/">Home</a></li> 
                     <li class="dropdown">
                         <a href="#" data-toggle="dropdown" class="dropdown-toggle">Info <b class="caret"></b></a>
                         <ul class="dropdown-menu">

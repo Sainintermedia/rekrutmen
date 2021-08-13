@@ -58,18 +58,19 @@ class Frontcontroller extends Controller
         ->where('kampung','KRAMAT')->get();
         ////////////////////////////////////////////////////////////////////////
         //bendung///////////////////////////////////////////////////////////////////////////////
-        $bendung = Frontend::where('kampung','BENDUNG')->get();
+        $bendung = Frontend::where('keterangan','belum')->where('kampung','BENDUNG')->get();
         $pbendung = Frontend::where('jeniskelamin','PEREMPUAN')
-        ->where('kampung','BENDUNG')->get();
+        ->where('kampung','BENDUNG')
+        ->where('keterangan','belum')->get();
         $lbendung = Frontend::where('jeniskelamin','LAKI LAKI')
         ->where('kampung','BENDUNG')->get();
         ////////////////////////////////////////////////////////////////////////
         //belum masuk dan udah masuk///////////////////////////////////////////////////////////////////////////////
-        $belum = Frontend::where('keterangan','belum')->
+        $belums = Frontend::where('keterangan','belum')->
         get();
-        $pbelum = Frontend::where('keterangan','belum')->
+        $pbelums = Frontend::where('keterangan','belum')->
         where('jeniskelamin','PEREMPUAN')->get();
-        $lbelum = Frontend::where('keterangan','belum')->
+        $lbelums = Frontend::where('keterangan','belum')->
         where('jeniskelamin','LAKI LAKI')->get();
                 //UDAH masuk dan udah masuk//////////////////////////////
         $udah = Frontend::where('keterangan','udah')->get();
@@ -82,12 +83,12 @@ class Frontcontroller extends Controller
         ////////////////////////////////////////////////////////////////////////
 
         // dd($data);
-        return view ('frontend.main',compact('udah','pudah','ludah','belum','pbelum','lbelum','bendung','pbendung','lbendung','kramat','pkramat','lkramat','kunir','pkunir','lkunir','sumurbandung','psumurbandung','lsumurbandung','saradan','sempur','psempur','lsempur','saradan','psaradan','lsaradan'));
+        return view ('frontend.main',compact('udah','pudah','ludah','belums','pbelums','lbelums','bendung','pbendung','lbendung','kramat','pkramat','lkramat','kunir','pkunir','lkunir','sumurbandung','psumurbandung','lsumurbandung','saradan','sempur','psempur','lsempur','saradan','psaradan','lsaradan'));
     }
 
     public function databendung()
     {
-        $bendung = Frontend::where('kampung','BENDUNG')->get();
+        $bendung = Frontend::where('keterangan','belum')-> orwhere('kampung','BENDUNG')->get();
         // dd($data);
         return view ('frontend.content.data',compact('bendung'));
   
