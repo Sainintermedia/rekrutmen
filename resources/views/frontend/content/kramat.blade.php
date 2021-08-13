@@ -27,7 +27,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            @foreach( $bendung as $bd)
+                            @foreach( $kramat1 as $bd)
                             <tr>
                             
                                 <th scope="row">{{ $loop->iteration }}</th>
