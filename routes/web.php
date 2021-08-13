@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PendaftaranController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('frontend.main');
 });
+
+
+///////////////// PENDAFTARAN ///////////////////////
+
+    Route::get('/pendaftaran',[PendaftaranController::class, 'index']);
+    Route::post('/pendaftaran',[PendaftaranController::class, 'store']);
+    Route::get('/creatependaftaran',[PendaftaranController::class, 'create']);
+    Route::put('/pendaftaranupdate/{id}',[PendaftaranController::class, 'update']);
+    Route::get('/pendaftaranedit/{id}',[PendaftaranController::class, 'edit']);
+    Route::get('/pendaftaranhapus/{id}',[PendaftaranController::class, 'destroy']);

@@ -34,16 +34,15 @@
         <!-- Left Panel -->
 
     <aside id="left-panel" class="left-panel">
-      @include('backend.nav')
+    @include('backend.layout.nav')
     </aside><!-- /#left-panel -->
 
     <!-- Left Panel -->
-
-    
+    <!-- Right Panel -->
+    @include('backend.layout.side')
     <!-- Right Panel -->
 
-    
-    <!-- Right Panel -->
+    @yield('content')
 
     <script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
