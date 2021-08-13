@@ -80,7 +80,9 @@ document.addEventListener('keydown', (e) => {
 <script type="text/javascript">
 	$(document).ready(function(){
 		$('.data').DataTable();
-	});
+	}
+  
+    );
 </script>
 {{-- <script language='JavaScript1.2'><font></font>
 	function disableselect(e){<font></font>

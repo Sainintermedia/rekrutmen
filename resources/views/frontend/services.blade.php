@@ -1,7 +1,7 @@
 
 	<div class="container">
 		<div class="row">
-		<div class="skill-home"> <div class="skill-home-solid clearfix"> 
+		<div class="skill-home"> <div class="skill-home-solid clearfix responsive"> 
 		<div class="col-md-3 text-center">
 		<div class="box"> 
 		<span class="icons c1"><i class="icon-settings icons"></i></span> <div class="box-area">

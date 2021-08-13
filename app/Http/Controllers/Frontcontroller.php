@@ -105,7 +105,7 @@ class Frontcontroller extends Controller
     {
         $bendung1 = Frontend::where('keterangan','belum')->where('kampung','BENDUNG')->get();
         // dd($data);
-        return view ('frontend.content.data',compact('bendung1'));
+        return view ('frontend.content.bendung',compact('bendung1'));
   
        
     }
@@ -113,32 +113,46 @@ class Frontcontroller extends Controller
     {
         $kramat1 = Frontend::where('keterangan','belum')->where('kampung','KRAMAT')->get();
         // dd($data);
-        return view ('frontend.content.data',compact('kramat1'));
+        return view ('frontend.content.kramat',compact('kramat1'));
     }
     public function datasumurbandung()
     {
         $sumurbandung1 = Frontend::where('keterangan','belum')->where('kampung','SUMURBANDUNG')->get();
         // dd($data);
-        return view ('frontend.content.data',compact('sumurbandung1'));
+        return view ('frontend.content.sumurbandung',compact('sumurbandung1'));
     }
     public function datasempur()
     {
         $sempur1 = Frontend::where('keterangan','belum')->where('kampung','SEMPUR')->get();
         // dd($data);
-        return view ('frontend.content.data',compact('sempur1'));
+        return view ('frontend.content.sempur',compact('sempur1'));
     }
     public function datasaradan()
     {
         $saradan1 = Frontend::where('keterangan','belum')->where('kampung','SARADAN')->get();
         // dd($data);
-        return view ('frontend.content.data',compact('saradan1'));
+        return view ('frontend.content.saradan',compact('saradan1'));
     }
     public function datakunir()
     {
         $kunir1 = Frontend::where('keterangan','belum')->where('kampung','KUNIR')->get();
         // dd($data);
-        return view ('frontend.content.data',compact('kunir1'));
+        return view ('frontend.content.kunir',compact('kunir1'));
     }
+    public function dataudah()
+    {
+        $udah1 = Frontend::where('keterangan','udah')->get();
+        // dd($data);
+        return view ('frontend.content.udah',compact('udah1'));
+    }
+    public function databelum()
+    {
+        $belum1 = Frontend::where('keterangan','belum')->get();
+        // dd($data);
+        return view ('frontend.content.belum',compact('belum1'));
+    }
+ 
+
     /**
      * Show the form for creating a new resource.
      *
