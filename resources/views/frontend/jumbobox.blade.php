@@ -1,7 +1,9 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-12">
-            <div><h1>Kerja Sama Terhadap Perusahaan / Outsourching </h1>Team Rekrutmen merupakan inisiatif kepala desa di desa
+            <div><h1>Kerja Sama</h1>
+                <h3> Terhadap Perusahaan / Outsourching </h3>
+                Team Rekrutmen merupakan inisiatif kepala desa di desa
                 sumurbandung dan pada akhirnya disahkan, Keberadaan Team Rekrutmen diharapkan akan lebih 
                 meningkatkan peran kelembagaan dan kerjasama 
                 di lingkungan Desa Sumurbandung, terutama dalam memfasilitasi 
