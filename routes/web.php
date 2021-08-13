@@ -27,3 +27,8 @@ Route::get('/', function () {
     Route::put('/pendaftaranupdate/{id}',[PendaftaranController::class, 'update']);
     Route::get('/pendaftaranedit/{id}',[PendaftaranController::class, 'edit']);
     Route::get('/pendaftaranhapus/{id}',[PendaftaranController::class, 'destroy']);
+
+///////////////// DATA FRONTEND ///////////////////////
+
+
+
