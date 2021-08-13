@@ -85,6 +85,14 @@ class Frontcontroller extends Controller
         return view ('frontend.main',compact('udah','pudah','ludah','belum','pbelum','lbelum','bendung','pbendung','lbendung','kramat','pkramat','lkramat','kunir','pkunir','lkunir','sumurbandung','psumurbandung','lsumurbandung','saradan','sempur','psempur','lsempur','saradan','psaradan','lsaradan'));
     }
 
+    public function databendung()
+    {
+        $bendung = Frontend::where('kampung','BENDUNG')->get();
+        // dd($data);
+        return view ('frontend.content.index',compact('bendung'));
+  
+       
+    }
     /**
      * Show the form for creating a new resource.
      *
