@@ -5,32 +5,42 @@
 		<div class="col-md-3 text-center">
 		<div class="box"> 
 		<span class="icons c1"><i class="icon-settings icons"></i></span> <div class="box-area">
-		<h3>Sumurbandung</h3> <p>Lorem ipsum dolor sit amet,</p> <p><a href="#">Read More</a></p></div>
+		<h3>SUMURBANDUNG</h3><h5> {{ $sumurbandung->count() }} Orang</h5> <p>{{ $lsumurbandung->count() }} Laki Laki  {{ $psumurbandung->count() }} Perempuan</p> <p><a href="#">Read More</a></p></div>
 		</div></div>
 		<div class="col-md-3 text-center"> 
 		<div class="box"> 
 		<span class="icons c2"><i class="icon-login icons"></i></span> <div class="box-area">
-		<h3>Kramat</h3> <p>Lorem ipsum dolor sit amet,</p> <p><a href="#">Read More</a></p></div>
+		<h3>KRAMAT</h3><h5> {{ $kramat->count() }} Orang</h5> <p>{{ $lkramat->count() }} Laki Laki  {{ $pkramat->count() }} Perempuan</p> <p><a href="#">Read More</a></p></div>
 		</div></div>
 		<div class="col-md-3 text-center"> 
 		<div class="box"> 
 		<span class="icons c3"><i class="icon-user icons"></i></span> <div class="box-area">
-		<h3>Kunir</h3> <p>Lorem ipsum dolor sit amet,</p> <p><a href="#">Read More</a></p></div>
+		<h3>KUNIR</h3><h5> {{ $kunir->count() }} Orang</h5> <p>{{ $lkunir->count() }} Laki Laki  {{ $pkunir->count() }} Perempuan</p> <p><a href="#">Read More</a></p></div>
 		</div></div>
 		<div class="col-md-3 text-center"> 
 		<div class="box">
 		<span class="icons c4"><i class="icon-home icons"></i></span> <div class="box-area">
-		<h3>Bendung</h3> <p>Lorem ipsum dolor sit amet,</p> <p><a href="#">Read More</a></p></div>
+		<h3>BENDUNG</h3><h5> {{ $bendung->count() }} Orang</h5> <p>{{ $lbendung->count() }} Laki Laki  {{ $pbendung->count() }} Perempuan</p> <p><a href="#">Read More</a></p></div>
 		</div></div>
 		<div class="col-md-3 text-center"> 
 		<div class="box">
 		<span class="icons c4"><i class="icon-home icons"></i></span> <div class="box-area">
-		<h3>Sempur</h3> <p>Lorem ipsum dolor sit amet,</p> <p><a href="#">Read More</a></p></div>
+		<h3>SEMPUR</h3><h5> {{ $sempur->count() }} Orang</h5> <p>{{ $lsempur->count() }} Laki Laki  {{ $psempur->count() }} Perempuan</p> <p><a href="#">Read More</a></p></div>
 		</div></div>
 		<div class="col-md-3 text-center"> 
 		<div class="box">
 		<span class="icons c4"><i class="icon-home icons"></i></span> <div class="box-area">
-		<h3>Saradan</h3> <p>Lorem ipsum dolor sit amet,</p> <p><a href="#">Read More</a></p></div>
+		<h3>SARADAN</h3><h5> {{ $saradan->count() }} Orang</h5> <p>{{ $lsaradan->count() }} Laki Laki  {{ $psaradan->count() }} Perempuan</p> <p><a href="#">Read More</a></p></div>
+		</div></div>
+		<div class="col-md-3 text-center"> 
+		<div class="box">
+		<span class="icons c4"><i class="icon-home icons"></i></span> <div class="box-area">
+		<h3>YANG UDAH MASUK</h3><h5> {{ $udah->count() }} Orang</h5> <p> 0 Laki Laki  0 Perempuan</p> <p><a href="#">Read More</a></p></div>
+		</div></div>
+		<div class="col-md-3 text-center"> 
+		<div class="box">
+		<span class="icons c4"><i class="icon-home icons"></i></span> <div class="box-area">
+		<h3>YANG BELUM MASUK</h3><h5> {{ $belum->count() }} Orang</h5> <p>0 Laki Laki  0 Perempuan</p> <p><a href="#">Read More</a></p></div>
 		</div></div>
 		</div></div></div>
 		</div> 

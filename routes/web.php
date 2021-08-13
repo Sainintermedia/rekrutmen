@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\PendaftaranController;
+use App\Http\Controllers\Frontcontroller;
+
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,9 +16,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('frontend.main');
-});
+// Route::get('/', function () {
+//     return view('frontend.main');
+// });
 
 
 ///////////////// PENDAFTARAN ///////////////////////
@@ -29,6 +31,5 @@ Route::get('/', function () {
     Route::get('/pendaftaranhapus/{id}',[PendaftaranController::class, 'destroy']);
 
 ///////////////// DATA FRONTEND ///////////////////////
-
-
+Route::get('/',[Frontcontroller::class, 'index']);
 

@@ -16,22 +16,63 @@ class Frontcontroller extends Controller
     public function index()
     {
         //
-        $dtwg = datawarga::groupBy('kampung')
-        ->selectRaw('count(*) as total, kampung')
-        ->get();
+        // $dtwg = Frontend::groupBy('kampung')
+        // ->selectRaw('count(*) as total, kampung')
+        // ->get();
         
         $nik = DB::table('datawarga')->paginate();
-        $perempuan = datawarga::where('jeniskelamin','PEREMPUAN')->get();
-        $laki2 = datawarga::where('jeniskelamin','LAKI LAKI')->get();
- 
-        $data= [
-            'kk'=>$kk,
-            'nik'=>$nik,
-            'perempuan'=>$perempuan,
-            'laki2'=>$laki2
-        ];
- 
 
+        //SEMPUR///////////////////////////////////////////////////////////////////////////////
+        $sempur = Frontend::where('kampung','SEMPUR')->get();
+        $psempur = Frontend::where('jeniskelamin','PEREMPUAN')
+        ->where('kampung','SEMPUR')->get();
+        $lsempur = Frontend::where('jeniskelamin','LAKI LAKI')
+        ->where('kampung','SEMPUR')->get();
+        ////////////////////////////////////////////////////////////////////////
+        //saradan///////////////////////////////////////////////////////////////////////////////
+        $saradan = Frontend::where('kampung','SARADAN')->get();
+        $psaradan = Frontend::where('jeniskelamin','PEREMPUAN')
+        ->where('kampung','SARADAN')->get();
+        $lsaradan = Frontend::where('jeniskelamin','LAKI LAKI')
+        ->where('kampung','SARADAN')->get();
+        ////////////////////////////////////////////////////////////////////////
+        //sumurbandung///////////////////////////////////////////////////////////////////////////////
+        $sumurbandung = Frontend::where('kampung','SUMURBANDUNG')->get();
+        $psumurbandung = Frontend::where('jeniskelamin','PEREMPUAN')
+        ->where('kampung','SUMURBANDUNG')->get();
+        $lsumurbandung = Frontend::where('jeniskelamin','LAKI LAKI')
+        ->where('kampung','SUMURBANDUNG')->get();
+        ////////////////////////////////////////////////////////////////////////
+        //kunir///////////////////////////////////////////////////////////////////////////////
+        $kunir = Frontend::where('kampung','KUNIR')->get();
+        $pkunir = Frontend::where('jeniskelamin','PEREMPUAN')
+        ->where('kampung','KUNIR')->get();
+        $lkunir = Frontend::where('jeniskelamin','LAKI LAKI')
+        ->where('kampung','KUNIR')->get();
+                ////////////////////////////////////////////////////////////////////////
+        //kramat///////////////////////////////////////////////////////////////////////////////
+        $kramat = Frontend::where('kampung','KRAMAT')->get();
+        $pkramat = Frontend::where('jeniskelamin','PEREMPUAN')
+        ->where('kampung','KRAMAT')->get();
+        $lkramat = Frontend::where('jeniskelamin','LAKI LAKI')
+        ->where('kampung','KRAMAT')->get();
+        ////////////////////////////////////////////////////////////////////////
+        //bendung///////////////////////////////////////////////////////////////////////////////
+        $bendung = Frontend::where('kampung','BENDUNG')->get();
+        $pbendung = Frontend::where('jeniskelamin','PEREMPUAN')
+        ->where('kampung','BENDUNG')->get();
+        $lbendung = Frontend::where('jeniskelamin','LAKI LAKI')
+        ->where('kampung','BENDUNG')->get();
+        ////////////////////////////////////////////////////////////////////////
+        //belum masuk dan udah masuk///////////////////////////////////////////////////////////////////////////////
+        $belum = Frontend::where('keterangan','')->get();
+        $udah = Frontend::where('keterangan','udah')->get();
+        // $lbendung = Frontend::where('jeniskelamin','LAKI LAKI')
+        // ->where('kampung','BENDUNG')->get();
+        ////////////////////////////////////////////////////////////////////////
+
+        // dd($data);
+        return view ('frontend.main',compact('belum','udah','bendung','pbendung','lbendung','kramat','pkramat','lkramat','kunir','pkunir','lkunir','sumurbandung','psumurbandung','lsumurbandung','saradan','sempur','psempur','lsempur','saradan','psaradan','lsaradan'));
     }
 
     /**
