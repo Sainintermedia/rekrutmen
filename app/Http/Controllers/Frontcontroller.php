@@ -89,7 +89,7 @@ class Frontcontroller extends Controller
     {
         $bendung = Frontend::where('kampung','BENDUNG')->get();
         // dd($data);
-        return view ('frontend.content.index',compact('bendung'));
+        return view ('frontend.content.data',compact('bendung'));
   
        
     }
