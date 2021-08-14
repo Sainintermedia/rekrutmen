@@ -51,6 +51,7 @@ class PendaftaranController extends Controller
             'telepon' => 'required',
             'pendidikan' => 'required',
             'paklaring' => 'required',
+            'keterangan' => 'required',
 
             ]);
 

@@ -27,6 +27,7 @@ class CreateDatawargaTable extends Migration
             $table->string('telepon',13);
             $table->string('pendidikan');
             $table->string('paklaring');
+            $table->string('keterangan');
             $table->timestamps();
         });
     }

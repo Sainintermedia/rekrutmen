@@ -20,6 +20,7 @@ class Pendaftaran extends Model
         'pelamar',
         'telepon',
         'pendidikan',
-        'paklaring'];
+        'paklaring',
+        'keterangan'];
     use HasFactory;
 }
