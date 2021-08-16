@@ -80,6 +80,13 @@ document.addEventListener('keydown', (e) => {
 <script type="text/javascript">
 	$(document).ready(function(){
 		$('.data').DataTable();
+        "columns": [
+    { "width": "20%" },
+    null,
+    null,
+    null,
+    null
+  ]
 	}
   
     );
