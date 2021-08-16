@@ -42,7 +42,7 @@ class PendaftaranController extends Controller
             'nik' => 'required',
             'nama' => 'required',
             'tempat_lahir' => 'required',
-            'tanggal_lahir' => 'required',
+            'tgl_lahir' => 'required',
             'jeniskelamin' => 'required',
             'kampung' => 'required',
             'rt' => 'required',

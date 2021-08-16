@@ -15,16 +15,16 @@ class CreateDatawargaTable extends Migration
     {
         Schema::create('datawarga', function (Blueprint $table) {
             $table->id();
-            $table->string('nik',16);
-            $table->string('nama',50);
+            $table->string('nik');
+            $table->string('nama');
             $table->string('tempat_lahir');
             $table->date('tgl_lahir');
-            $table->string('jeniskelamin',30);
+            $table->string('jeniskelamin');
             $table->string('kampung');
             $table->string('rt');
             $table->string('rw');
             $table->string('pelamar');
-            $table->string('telepon',13);
+            $table->string('telepon');
             $table->string('pendidikan');
             $table->string('paklaring');
             $table->string('keterangan');

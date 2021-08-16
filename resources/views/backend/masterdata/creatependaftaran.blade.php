@@ -166,11 +166,6 @@
                                         @error('keterangan')<div class="has-feedback text-danger" role="alert">{{ $message }}</div>@enderror
                                     </div>
 
-                                    {{-- <div class="form-group">
-                                        <b>File Gambar</b><br/>
-                                        <input type="file" name="pictguru">
-                                    </div> --}}
-
                                 </div>
                             </div>
                         </div>

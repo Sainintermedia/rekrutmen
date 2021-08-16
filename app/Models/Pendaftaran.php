@@ -13,7 +13,7 @@ class Pendaftaran extends Model
         'nama',
         'tempat_lahir',
         'tgl_lahir',
-        'jk',
+        'jeniskelamin',
         'kampung',
         'rt',
         'rw',
